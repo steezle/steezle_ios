@@ -1,0 +1,58 @@
+platform :ios, '8.0'
+
+target 'Steezle' do
+
+# Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+
+#use_frameworks!
+
+# Pods for Steezle
+
+target 'SteezleTests' do
+
+inherit! :search_paths
+
+# Pods for testing
+
+end
+
+target 'SteezleUITests' do
+
+inherit! :search_paths
+
+# Pods for testing
+
+end
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+#platform :ios, ‘8.0’
+
+pod 'Google/SignIn'
+
+pod 'AFNetworking', '~> 3.0'
+
+pod 'SVProgressHUD'
+
+pod 'FBSDKShareKit'
+
+pod 'FBSDKLoginKit'
+
+pod 'FBSDKCoreKit'
+
+pod 'CZPicker'
+
+pod 'SDWebImage/WebP'
+
+pod 'pop', '~> 1.0'
+
+pod 'SDWebImage'
+
+pod 'ImageZoomViewer'
+
+pod 'BALoadingView'
+
+pod 'KTMImageBrowser'
+
+
+end
